@@ -9,7 +9,7 @@
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
-  "workbench.activityBar.visible": true,
+  "workbench.activityBar.visible": false,
 
   // VIM
   "vim.leader": "<Space>",

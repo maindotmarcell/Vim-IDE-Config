@@ -5,7 +5,6 @@
   "files.autoSave": "afterDelay",
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
-  "redhat.telemetry.enabled": false,
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
@@ -48,10 +47,13 @@
     },
 
     // ACTIVE FILE MANAGEMENT
-    { "before": ["leader", "w"], "commands": ["workbench.action.closeActiveEditor"] },
+    {
+      "before": ["leader", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
     { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-    { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] },
-    
+    { "before": ["leader", "w"], "commands": ["editor.action.formatDocument"] },
+
     // HOVER AND DEFINITION NAVIGATION
     {
       "before": ["g", "h"],
@@ -64,7 +66,9 @@
     {
       "before": ["g", "b"],
       "commands": ["workbench.action.navigateBack"]
-    }
+    },
+    // COMMENT NORMAL MODE
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
   ],
   "vim.visualModeKeyBindings": [
     // Stay in visual mode while indenting
@@ -73,5 +77,18 @@
     // Move selected lines while staying in visual mode
     { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
-  ]
+    // COMMENT VISUAL MODE
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+  ],
+  "redhat.telemetry.enabled": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path.mac": "/Users/marcellmunnich/.vs-kubernetes/tools/helm/darwin-amd64/helm",
+    "vscode-kubernetes.minikube-path.mac": "/Users/marcellmunnich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

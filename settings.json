@@ -1,6 +1,6 @@
 {
   // VS CODE SETTINGS
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "poimandres-noitalics",
   "editor.minimap.enabled": false,
   "files.autoSave": "afterDelay",
   "window.zoomLevel": 1,
@@ -52,7 +52,7 @@
       "commands": ["workbench.action.closeActiveEditor"]
     },
     { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-    { "before": ["leader", "w"], "commands": ["editor.action.formatDocument"] },
+    { "before": ["leader", "s"], "commands": ["editor.action.formatDocument"] },
 
     // HOVER AND DEFINITION NAVIGATION
     {
@@ -67,8 +67,19 @@
       "before": ["g", "b"],
       "commands": ["workbench.action.navigateBack"]
     },
+
     // COMMENT NORMAL MODE
-    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
+
+    // HALF PAGE SCROLL REMAP
+    {
+      "before": ["S-d"],
+      "after": ["C-d", "z", "z"]
+    },
+    {
+      "before": ["S-u"],
+      "after": ["C-u", "z", "z"]
+    }
   ],
   "vim.visualModeKeyBindings": [
     // Stay in visual mode while indenting

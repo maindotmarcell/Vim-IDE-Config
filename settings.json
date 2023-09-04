@@ -9,6 +9,7 @@
   "workbench.statusBar.visible": true,
   "breadcrumbs.enabled": true,
   "workbench.activityBar.visible": false,
+  "terminal.integrated.fontFamily": "MesloLGS NF",
 
   // VIM
   "vim.leader": "<Space>",

@@ -90,7 +90,16 @@
     { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
     // COMMENT VISUAL MODE
-    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
+    // HALF PAGE SCROLL REMAP
+    {
+      "before": ["S-d"],
+      "after": ["C-d", "z", "z"]
+    },
+    {
+      "before": ["S-u"],
+      "after": ["C-u", "z", "z"]
+    }
   ],
   "redhat.telemetry.enabled": false,
   "vs-kubernetes": {

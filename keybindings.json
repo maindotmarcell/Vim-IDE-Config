@@ -42,7 +42,7 @@
   {
     "key": "shift+n",
     "command": "explorer.newFolder",
-    "when": "explorerViewletFocus"
+    "when": "filesExplorerFocus && !inputFocus"
   },
   {
     "key": "ctrl+shift+n",

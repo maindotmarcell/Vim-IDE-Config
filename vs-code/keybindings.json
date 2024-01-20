@@ -1,21 +1,22 @@
+// Place your key bindings in this file to override the defaults
 [
   // NAVIGATION
   {
-    "key": "Cmd+shift+a",
+    "key": "Cmd+n",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "Cmd+shift+b",
+    "key": "Cmd+p",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
   {
-    "key": "Cmd+shift+j",
+    "key": "Cmd+j",
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "Cmd+shift+n",
+    "key": "Cmd+shift+j",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },

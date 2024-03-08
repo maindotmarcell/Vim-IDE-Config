@@ -12,11 +12,11 @@
     "when": "terminalFocus"
   },
   {
-    "key": "Cmd+j",
+    "key": "Cmd+t",
     "command": "workbench.action.togglePanel"
   },
   {
-    "key": "Cmd+shift+j",
+    "key": "Cmd+shift+t",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },
@@ -76,3 +76,4 @@
     "command": "workbench.action.toggleZenMode"
   }
 ]
+

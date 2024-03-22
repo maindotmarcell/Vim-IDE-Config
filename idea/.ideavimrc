@@ -1,15 +1,17 @@
 set number relativenumber
 let mapleader = " "
+set incsearch
 
 nnoremap <S-u> <C-u>zz
 nnoremap <S-d> <C-d>zz
-vnoremap <S-u> <C-u>zz
-vnoremap <S-d> <C-d>zz
+xnoremap <S-u> <C-u>zz
+xnoremap <S-d> <C-d>zz
 
 nmap <S-h> <Action>(PreviousTab)
 nmap <S-l> <Action>(NextTab)
 nmap <leader>q <Action>(CloseEditor)
 nmap <leader>s <Action>(ReformatCode)
-nmap <leader>f <Action>(GotoFile)
+nmap <leader>f <Action>(SearchEverywhere)
+nmap gb <Action>(Back)
 nmap gh <Action>(QuickJavaDoc)
-nmap gb <C-o>
+nmap ge <Action>(ShowErrorDescription)

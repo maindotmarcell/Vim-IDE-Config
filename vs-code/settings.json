@@ -1,6 +1,6 @@
 {
   // VS CODE SETTINGS
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "Nord",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
@@ -50,11 +50,15 @@
       "commands": ["workbench.action.closeActiveEditor"]
     },
     { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-    { "before": ["leader", "s"], "commands": ["workbench.action.files.save"] },
+    // { "before": ["leader", "s"], "commands": ["workbench.action.files.save"] },
 
     // HOVER AND DEFINITION NAVIGATION
     {
       "before": ["g", "h"],
+      "commands": ["editor.action.showDefinitionPreviewHover"]
+    },
+    {
+      "before": ["g", "e"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
     },
     {
@@ -123,7 +127,6 @@
   },
   "git.autofetch": true,
   "editor.lineNumbers": "relative",
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

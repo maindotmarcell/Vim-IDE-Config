@@ -2,12 +2,12 @@
 [
   // NAVIGATION
   {
-    "key": "Cmd+n",
+    "key": "Ctrl+n",
     "command": "workbench.action.terminal.focusNext",
     "when": "terminalFocus"
   },
   {
-    "key": "Cmd+p",
+    "key": "Ctrl+p",
     "command": "workbench.action.terminal.focusPrevious",
     "when": "terminalFocus"
   },
@@ -76,4 +76,3 @@
     "command": "workbench.action.toggleZenMode"
   }
 ]
-

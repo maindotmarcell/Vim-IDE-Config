@@ -9,7 +9,6 @@ xnoremap <S-d> <C-d>zz
 
 nmap <S-h> <Action>(PreviousTab)
 nmap <S-l> <Action>(NextTab)
-nmap <leader>q <Action>(CloseEditor)
 nmap <leader>s <Action>(ReformatCode)
 nmap gb <Action>(Back)
 nmap gh <Action>(QuickJavaDoc)

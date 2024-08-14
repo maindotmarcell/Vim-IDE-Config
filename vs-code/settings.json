@@ -1,6 +1,6 @@
 {
-  // VS CODE SETTINGS
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
@@ -8,7 +8,7 @@
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.rulers": [120],
 
-  // VIM
+  // ==== VIM ====
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
@@ -38,20 +38,6 @@
       "commands": ["workbench.action.focusRightGroup"]
     },
 
-    // FILE TREE
-    {
-      "before": ["leader", "n", "e"],
-      "commands": ["workbench.explorer.fileView.focus"]
-    },
-
-    // ACTIVE FILE MANAGEMENT
-    {
-      "before": ["leader", "q"],
-      "commands": ["workbench.action.closeActiveEditor"]
-    },
-    { "before": ["leader", "f"], "commands": ["workbench.action.quickOpen"] },
-    // { "before": ["leader", "s"], "commands": ["workbench.action.files.save"] },
-
     // HOVER AND DEFINITION NAVIGATION
     {
       "before": ["g", "h"],
@@ -70,9 +56,6 @@
       "commands": ["workbench.action.navigateBack"]
     },
 
-    // COMMENT NORMAL MODE
-    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
-
     // HALF PAGE SCROLL REMAP
     {
       "before": ["S-d"],
@@ -90,8 +73,7 @@
     // Move selected lines while staying in visual mode
     { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
     { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
-    // COMMENT VISUAL MODE
-    { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] },
+
     // HALF PAGE SCROLL REMAP
     {
       "before": ["S-d"],
@@ -102,11 +84,9 @@
       "after": ["C-u", "z", "z"]
     }
   ],
+  // ==== END VIM ====
+
   "redhat.telemetry.enabled": false,
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path.mac": "/Users/marcellmunnich/.vs-kubernetes/tools/helm/darwin-amd64/helm",
-    "vscode-kubernetes.minikube-path.mac": "/Users/marcellmunnich/.vs-kubernetes/tools/minikube/darwin-amd64/minikube"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -125,10 +105,9 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autofetch": true,
-  "editor.lineNumbers": "relative",
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "go.toolsManagement.autoUpdate": true
+  "git.autofetch": true,
+  "editor.lineNumbers": "relative"
 }

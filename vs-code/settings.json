@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Material Theme Palenight High Contrast",
+  "workbench.colorTheme": "poimandres-noitalics",
   "workbench.iconTheme": "eq-material-theme-icons-palenight",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
@@ -12,10 +12,6 @@
   "vim.leader": "<Space>",
   "vim.normalModeKeyBindingsNonRecursive": [
     // NAVIGATION
-    // switch b/w buffers
-    { "before": ["<S-h>"], "commands": [":bprevious"] },
-    { "before": ["<S-l>"], "commands": [":bnext"] },
-
     // splits
     { "before": ["leader", "v"], "commands": [":vsplit"] },
     { "before": ["leader", "s"], "commands": [":split"] },
@@ -109,5 +105,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "git.autofetch": true,
-  "editor.lineNumbers": "relative"
+  "editor.lineNumbers": "relative",
+  "workbench.activityBar.location": "hidden"
 }

@@ -12,11 +12,7 @@
     "when": "terminalFocus"
   },
   {
-    "key": "Cmd+t",
-    "command": "workbench.action.togglePanel"
-  },
-  {
-    "key": "Cmd+shift+t",
+    "key": "Cmd+shift+j",
     "command": "workbench.action.terminal.new",
     "when": "terminalFocus"
   },

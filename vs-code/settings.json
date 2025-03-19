@@ -1,27 +1,22 @@
 {
-  "workbench.colorTheme": "poimandres-noitalics",
-  "workbench.iconTheme": "eq-material-theme-icons-palenight",
+  "workbench.colorTheme": "poimandres-storm",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
-  "breadcrumbs.enabled": true,
+  "breadcrumbs.enabled": false,
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.rulers": [120],
-
-  // ==== VIM ====
   "vim.leader": "<Space>",
+  "vim.useSystemClipboard": true,
   "vim.normalModeKeyBindingsNonRecursive": [
-    // NAVIGATION
-    
-    // switch b/w buffers
-    { "before": ["<S-h>"], "commands": [":bprevious"] },
-    { "before": ["<S-l>"], "commands": [":bnext"] },
-    
-    // splits
-    { "before": ["leader", "v"], "commands": [":vsplit"] },
-    { "before": ["leader", "s"], "commands": [":split"] },
-
-    // panes
+    {
+      "before": ["leader", "v"],
+      "commands": [":vsplit"]
+    },
+    {
+      "before": ["leader", "s"],
+      "commands": [":split"]
+    },
     {
       "before": ["leader", "h"],
       "commands": ["workbench.action.focusLeftGroup"]
@@ -38,8 +33,6 @@
       "before": ["leader", "l"],
       "commands": ["workbench.action.focusRightGroup"]
     },
-
-    // HOVER AND DEFINITION NAVIGATION
     {
       "before": ["g", "h"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
@@ -56,8 +49,6 @@
       "before": ["g", "b"],
       "commands": ["workbench.action.navigateBack"]
     },
-
-    // HALF PAGE SCROLL REMAP
     {
       "before": ["S-d"],
       "after": ["C-d", "z", "z"]
@@ -65,17 +56,29 @@
     {
       "before": ["S-u"],
       "after": ["C-u", "z", "z"]
+    },
+    {
+      "before": ["leader", "g"],
+      "commands": ["workbench.scm.focus"]
     }
   ],
   "vim.visualModeKeyBindings": [
-    // Stay in visual mode while indenting
-    { "before": ["<"], "commands": ["editor.action.outdentLines"] },
-    { "before": [">"], "commands": ["editor.action.indentLines"] },
-    // Move selected lines while staying in visual mode
-    { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
-    { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
-
-    // HALF PAGE SCROLL REMAP
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"]
+    },
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"]
+    },
     {
       "before": ["S-d"],
       "after": ["C-d", "z", "z"]
@@ -85,8 +88,6 @@
       "after": ["C-u", "z", "z"]
     }
   ],
-  // ==== END VIM ====
-
   "redhat.telemetry.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -111,5 +112,7 @@
   },
   "git.autofetch": true,
   "editor.lineNumbers": "relative",
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "workbench.iconTheme": "symbols"
 }

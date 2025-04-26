@@ -112,7 +112,7 @@
   },
   "git.autofetch": true,
   "editor.lineNumbers": "relative",
-  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "symbols"
 }

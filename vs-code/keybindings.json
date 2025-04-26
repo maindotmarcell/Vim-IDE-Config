@@ -65,5 +65,24 @@
     "key": "ctrl+shift+cmd+j",
     "command": "workbench.action.toggleMaximizedPanel",
     "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
+  },
+  {
+    "key": "cmd+k",
+    "command": "github.copilot.interactiveEditor.explain",
+    "when": "editorTextFocus && github.copilot.interactiveEditor.available"
+  },
+  {
+    "key": "alt+\\",
+    "command": "-editor.action.inlineSuggest.trigger",
+    "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
+  },
+  {
+    "key": "cmd+l",
+    "command": "workbench.action.toggleAuxiliaryBar"
+  },
+  {
+    "key": "cmd+k",
+    "command": "inlineChat.start",
+    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
   }
 ]

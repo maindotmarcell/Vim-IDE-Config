@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Nord",
+  "workbench.colorTheme": "poimandres-noitalics-storm",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
@@ -72,6 +72,10 @@
     {
       "before": ["[", "d"],
       "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["leader", "o"],
+      "commands": ["workbench.action.closeOtherEditors"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -126,7 +130,6 @@
   "editor.lineNumbers": "relative",
   "workbench.activityBar.location": "top",
   "workbench.layoutControl.enabled": false,
-  "workbench.iconTheme": "symbols",
   "workbench.colorCustomizations": {
     "[Vira*]": {
       "toolbar.activeBackground": "#80CBC426",
@@ -160,5 +163,6 @@
       "notebook.inactiveFocusedCellBorder": "#80CBC480",
       "commandCenter.activeBorder": "#80CBC480"
     }
-  }
+  },
+  "workbench.iconTheme": "symbols"
 }

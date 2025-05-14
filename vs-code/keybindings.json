@@ -78,7 +78,7 @@
   },
   {
     "key": "cmd+l",
-    "command": "workbench.action.toggleAuxiliaryBar"
+    "command": "workbench.panel.chat"
   },
   {
     "key": "cmd+k",

@@ -1,7 +1,7 @@
 {
-  "workbench.colorTheme": "poimandres-noitalics",
+  "workbench.colorTheme": "poimandres-noitalics-storm",
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.5,
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",

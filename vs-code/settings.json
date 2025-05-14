@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "poimandres-noitalics-storm",
+  "workbench.colorTheme": "poimandres-noitalics",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1,
   "editor.formatOnSave": true,
@@ -8,6 +8,7 @@
   "editor.rulers": [120],
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
+  "vim.highlightedyank.enable": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["leader", "v"],
@@ -164,5 +165,6 @@
       "commandCenter.activeBorder": "#80CBC480"
     }
   },
-  "workbench.iconTheme": "symbols"
+  "workbench.iconTheme": "symbols",
+  "github.copilot.nextEditSuggestions.enabled": true
 }

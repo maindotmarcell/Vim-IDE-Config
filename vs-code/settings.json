@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "poimandres-noitalics-storm",
+  "workbench.colorTheme": "Catppuccin Frappé",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1.5,
   "editor.formatOnSave": true,
@@ -53,6 +53,10 @@
     {
       "before": ["g", "b"],
       "commands": ["workbench.action.navigateBack"]
+    },
+    {
+      "before": ["leader", "r", "n"],
+      "commands": ["editor.action.rename"]
     },
     {
       "before": ["S-d"],
@@ -153,7 +157,6 @@
       "editorWidget.resizeBorder": "#80CBC4",
       "editorWidget.border": "#80CBC4",
       "settings.modifiedItemIndicator": "#80CBC4",
-      "settings.headerForeground": "#80CBC4",
       "panelTitle.activeBorder": "#80CBC4",
       "breadcrumb.activeSelectionForeground": "#80CBC4",
       "menu.selectionForeground": "#80CBC4",
@@ -166,5 +169,11 @@
     }
   },
   "workbench.iconTheme": "symbols",
-  "github.copilot.nextEditSuggestions.enabled": true
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  }
 }

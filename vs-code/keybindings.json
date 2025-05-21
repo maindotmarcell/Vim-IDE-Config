@@ -67,11 +67,6 @@
     "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
   },
   {
-    "key": "cmd+k",
-    "command": "github.copilot.interactiveEditor.explain",
-    "when": "editorTextFocus && github.copilot.interactiveEditor.available"
-  },
-  {
     "key": "alt+\\",
     "command": "-editor.action.inlineSuggest.trigger",
     "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
@@ -84,5 +79,9 @@
     "key": "cmd+k",
     "command": "inlineChat.start",
     "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "projectManager.saveProject"
   }
 ]

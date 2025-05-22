@@ -76,11 +76,6 @@
     "command": "workbench.panel.chat"
   },
   {
-    "key": "cmd+k",
-    "command": "inlineChat.start",
-    "when": "editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly"
-  },
-  {
     "key": "ctrl+s",
     "command": "projectManager.saveProject"
   }

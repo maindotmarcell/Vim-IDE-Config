@@ -79,8 +79,12 @@
       "commands": ["editor.action.marker.prev"]
     },
     {
-      "before": ["leader", "c"],
+      "before": ["leader", "b", "o"],
       "commands": ["workbench.action.closeOtherEditors"]
+    },
+    {
+      "before": ["leader", "b", "r"],
+      "commands": ["workbench.action.closeEditorsToTheRight"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -138,9 +142,6 @@
   "workbench.iconTheme": "symbols",
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
+    "markdown": true
   }
 }

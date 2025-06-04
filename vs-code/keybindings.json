@@ -52,6 +52,12 @@
     "when": "inQuickOpen"
   },
 
+  // GIT
+  {
+    "key": "Cmd+Shift+G",
+    "command": "workbench.view.scm"
+  },
+
   // EXTRA
   {
     "key": "ctrl+shift+5",

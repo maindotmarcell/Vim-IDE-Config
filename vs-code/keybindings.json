@@ -58,6 +58,18 @@
     "command": "workbench.view.scm"
   },
 
+  // TERMINAL
+  {
+    "key": "Cmd+T",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+
+  // SHOW SYMBOLS
+  {
+    "key": "Cmd+R",
+    "command": "workbench.action.showAllSymbols"
+  },
+
   // EXTRA
   {
     "key": "ctrl+shift+5",

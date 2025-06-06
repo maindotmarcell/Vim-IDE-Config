@@ -1,11 +1,5 @@
 // Place your key bindings in this file to override the defaults
 [
-  // NAVIGATION
-  {
-    "key": "Cmd+shift+j",
-    "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
-  },
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
@@ -63,7 +57,11 @@
     "key": "Cmd+T",
     "command": "workbench.action.terminal.toggleTerminal"
   },
-
+  {
+    "key": "Cmd+shift+T",
+    "command": "workbench.action.terminal.new",
+    "when": "terminalFocus"
+  },
   // SHOW SYMBOLS
   {
     "key": "Cmd+R",

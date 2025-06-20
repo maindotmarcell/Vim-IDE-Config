@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "poimandres-storm",
+  "workbench.colorTheme": "Nord",
   "editor.minimap.enabled": false,
   "window.zoomLevel": 1.5,
   "editor.formatOnSave": true,
@@ -47,7 +47,7 @@
       "commands": ["editor.action.revealDefinition"]
     },
     {
-      "before": ["g", "i"],
+      "before": ["g", "r"],
       "commands": ["editor.action.goToReferences"]
     },
     {
@@ -142,6 +142,9 @@
   "workbench.iconTheme": "symbols",
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
-    "markdown": true
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false
   }
 }

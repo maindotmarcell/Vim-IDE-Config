@@ -94,5 +94,9 @@
   {
     "key": "ctrl+s",
     "command": "projectManager.saveProject"
+  },
+  {
+    "key": "alt+p",
+    "command": "projectManager.listProjects"
   }
 ]

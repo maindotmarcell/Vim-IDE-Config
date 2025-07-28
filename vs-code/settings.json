@@ -1,12 +1,12 @@
 {
-  "workbench.colorTheme": "Vesper",
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 1,
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "editor.rulers": [120],
   "editor.folding": false,
+  "workbench.panel.opensMaximized": "preserve",
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
@@ -36,11 +36,7 @@
       "commands": ["workbench.action.focusRightGroup"]
     },
     {
-      "before": ["g", "h"],
-      "commands": ["editor.action.showDefinitionPreviewHover"]
-    },
-    {
-      "before": ["g", "e"],
+      "before": ["S-k"],
       "commands": ["editor.action.showDefinitionPreviewHover"]
     },
     {
@@ -149,5 +145,6 @@
     "scminput": false
   },
   "workbench.navigationControl.enabled": false,
-  "workbench.editor.empty.hint": "hidden"
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Nord"
 }

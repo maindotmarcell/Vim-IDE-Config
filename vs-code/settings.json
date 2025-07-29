@@ -1,6 +1,6 @@
 {
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 1.5,
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -62,10 +62,6 @@
     {
       "before": ["S-u"],
       "after": ["C-u", "z", "z"]
-    },
-    {
-      "before": ["leader", "g"],
-      "commands": ["workbench.scm.focus"]
     },
     {
       "before": ["]", "d"],

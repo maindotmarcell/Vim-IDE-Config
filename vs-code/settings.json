@@ -1,6 +1,6 @@
 {
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1.5,
+  "window.zoomLevel": 1.2,
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
@@ -56,11 +56,11 @@
       "commands": ["editor.action.rename"]
     },
     {
-      "before": ["S-d"],
+      "before": ["C-d"],
       "after": ["C-d", "z", "z"]
     },
     {
-      "before": ["S-u"],
+      "before": ["C-u"],
       "after": ["C-u", "z", "z"]
     },
     {
@@ -106,7 +106,6 @@
       "after": ["C-u", "z", "z"]
     }
   ],
-  "redhat.telemetry.enabled": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -130,17 +129,9 @@
   },
   "git.autofetch": true,
   "editor.lineNumbers": "relative",
-  "workbench.activityBar.location": "top",
-  "workbench.layoutControl.enabled": false,
   "workbench.iconTheme": "symbols",
-  "github.copilot.nextEditSuggestions.enabled": true,
-  "github.copilot.enable": {
-    "*": false,
-    "plaintext": false,
-    "markdown": false,
-    "scminput": false
-  },
   "workbench.navigationControl.enabled": false,
   "workbench.editor.empty.hint": "hidden",
   "workbench.colorTheme": "Nord"
 }
+

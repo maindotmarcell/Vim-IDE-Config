@@ -1,12 +1,19 @@
 {
   "editor.minimap.enabled": false,
-  "window.zoomLevel": 1.2,
   "editor.formatOnSave": true,
   "breadcrumbs.enabled": true,
   "terminal.integrated.fontFamily": "MesloLGS NF",
+  "editor.wordWrap": "on",
   "editor.rulers": [120],
   "editor.folding": false,
   "workbench.panel.opensMaximized": "preserve",
+  "git.autofetch": true,
+  "workbench.iconTheme": "symbols",
+  "workbench.navigationControl.enabled": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "One Dark Pro",
+  "window.zoomLevel": 1,
+  // VIM
   "vim.leader": "<Space>",
   "vim.useSystemClipboard": true,
   "vim.highlightedyank.enable": true,
@@ -78,6 +85,22 @@
     {
       "before": ["leader", "b", "r"],
       "commands": ["workbench.action.closeEditorsToTheRight"]
+    },
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<Down>"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["<Up>"],
+      "after": ["g", "k"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -98,14 +121,31 @@
       "commands": ["editor.action.moveLinesUpAction"]
     },
     {
-      "before": ["S-d"],
+      "before": ["C-d"],
       "after": ["C-d", "z", "z"]
     },
     {
-      "before": ["S-u"],
+      "before": ["C-u"],
       "after": ["C-u", "z", "z"]
+    },
+    {
+      "before": ["j"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["k"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<Down>"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["<Up>"],
+      "after": ["g", "k"]
     }
   ],
+  // FORMATTING
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -127,11 +167,5 @@
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "git.autofetch": true,
-  "editor.lineNumbers": "relative",
-  "workbench.iconTheme": "symbols",
-  "workbench.navigationControl.enabled": false,
-  "workbench.editor.empty.hint": "hidden",
-  "workbench.colorTheme": "Nord"
+  "git.confirmSync": false
 }
-

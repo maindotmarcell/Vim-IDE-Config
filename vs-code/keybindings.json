@@ -3,100 +3,96 @@
   // FILE TREE
   {
     "command": "workbench.action.toggleSidebarVisibility",
-    "key": "Cmd+e"
+    "key": "Cmd+e",
   },
   {
     "command": "workbench.files.action.focusFilesExplorer",
     "key": "Cmd+e",
-    "when": "editorTextFocus"
+    "when": "editorTextFocus",
   },
   {
     "key": "n",
     "command": "explorer.newFile",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "command": "renameFile",
     "key": "r",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "key": "shift+n",
     "command": "explorer.newFolder",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "key": "ctrl+shift+n",
     "command": "workbench.action.newWindow",
-    "when": "!explorerViewletFocus"
+    "when": "!explorerViewletFocus",
   },
   {
     "command": "deleteFile",
     "key": "d",
-    "when": "filesExplorerFocus && !inputFocus"
+    "when": "filesExplorerFocus && !inputFocus",
   },
   {
     "key": "ctrl+n",
     "command": "workbench.action.quickOpenSelectNext",
-    "when": "inQuickOpen"
+    "when": "inQuickOpen",
   },
   {
     "key": "ctrl+p",
     "command": "workbench.action.quickOpenSelectPrevious",
-    "when": "inQuickOpen"
+    "when": "inQuickOpen",
   },
 
   // GIT
   {
     "key": "Cmd+Shift+G",
-    "command": "workbench.view.scm"
+    "command": "workbench.view.scm",
   },
 
   // TERMINAL
   {
     "key": "Cmd+T",
-    "command": "workbench.action.terminal.toggleTerminal"
+    "command": "workbench.action.terminal.toggleTerminal",
   },
   {
     "key": "Cmd+shift+T",
     "command": "workbench.action.terminal.new",
-    "when": "terminalFocus"
+    "when": "terminalFocus",
   },
   // SHOW SYMBOLS
   {
     "key": "Cmd+R",
-    "command": "workbench.action.showAllSymbols"
+    "command": "workbench.action.showAllSymbols",
   },
 
   // EXTRA
   {
     "key": "ctrl+shift+5",
-    "command": "editor.emmet.action.matchTag"
+    "command": "editor.emmet.action.matchTag",
   },
   {
     "key": "ctrl+z",
-    "command": "workbench.action.toggleZenMode"
+    "command": "workbench.action.toggleZenMode",
   },
   {
     "key": "shift+cmd+j",
     "command": "workbench.action.toggleMaximizedPanel",
-    "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
+    "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'",
   },
   {
     "key": "alt+\\",
     "command": "-editor.action.inlineSuggest.trigger",
-    "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible"
-  },
-  {
-    "key": "cmd+l",
-    "command": "workbench.panel.chat"
+    "when": "editorTextFocus && !editorHasSelection && !inlineSuggestionsVisible",
   },
   {
     "key": "ctrl+s",
-    "command": "projectManager.saveProject"
+    "command": "projectManager.saveProject",
   },
   {
     "key": "alt+p",
-    "command": "projectManager.listProjects"
-  }
+    "command": "projectManager.listProjects",
+  },
 ]
